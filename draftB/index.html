@@ -6,7 +6,7 @@
 .lp{max-width:640px;margin:0 auto;background:#ffffff;padding-bottom:96px}
 .sec{padding:14px 20px;text-align:center}   /* 中央揃え・上下は詰めて画像とのリズムを作る */
 p{margin:0 0 10px;text-align:center;text-wrap:pretty;line-break:strict;word-break:normal;overflow-wrap:anywhere} .pr{font-size:11px;color:#999;text-align:right;font-weight:400;padding:7px 14px 3px}
-.note{font-size:12px;color:#999;text-align:right;font-weight:400;margin-top:-4px}  /* ※注釈専用・右寄せ12px固定（感想系は「※個人の感想です。」に統一） */
+.note{font-size:14px;color:#888;text-align:right;font-weight:400;line-height:1.5;margin:2px 0 6px}  /* ※注釈専用・右寄せ14px(≧10pt・レギュ①順守)。section.note も .note で出力 */
 .ucard{background:#fff;border:1px solid #e7e1d8;border-radius:16px;box-shadow:0 3px 12px rgba(40,30,20,.07);padding:14px 14px 10px;margin:18px 0;text-align:left}  /* 自分以外の口コミ＝カード化 */
 .ucard img{width:100%;height:auto;border-radius:10px;display:block;margin:0}
 .ucard .umeta{display:inline-block;background:#f1ece4;color:#8a7d6a;font-size:12px;font-weight:700;border-radius:999px;padding:4px 13px;margin:11px 0 7px}
@@ -39,6 +39,7 @@ section.sec{position:relative}
   <section class="sec" id="fv"><span class="rvwbadge">S01</span>
     <img src="images/slot_01.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
     <p>もし今、急に停電したら……考えたこと、ありますか。</p>
+    <p class="note">※停電時に使える日数は各家庭の大きさ・使用状況によって異なります。</p>
   </section>
   <span class="rvwbadge-top">S02</span>
   <h2 class="lphead">先に言っちゃうね</h2>
@@ -47,6 +48,7 @@ section.sec{position:relative}
     <p>ローン活用で<span class="em">初期費用は実質0円から</span>、毎月の電気代まで下がるそうです。</p>
     <p><span class="em-lg">知ってる人だけ、得をしていました</span></p>
     <img src="images/slot_02.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※当社提携ローン使用の場合。「太陽光＋蓄電池」セットでのご案内です。</p>
   </section>
   <span class="rvwbadge-top">S03</span>
   <h2 class="lphead">補助金って いくらもらえるの？</h2>
@@ -55,6 +57,9 @@ section.sec{position:relative}
     <p>東京の戸建てでは、<span class="em">補助金が平均で415万円</span>だと知りました。</p>
     <p>それを聞いて、正直、目を疑いました。</p>
     <img src="images/slot_03.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※2025年7月1日〜12月31日の集計に基づく。</p>
+    <p class="note">※各家庭の大きさ、使用状況によって異なります。</p>
+    <p class="note">※戸建て以外でも対象となる場合がございます。</p>
   </section>
   <span class="rvwbadge-top">S04</span>
   <h2 class="lphead">停電って うちは大丈夫？</h2>
@@ -83,6 +88,7 @@ section.sec{position:relative}
     <p>避難所も足りず、“基本は自宅で過ごす”ことになるそう。</p>
     <p>つまり、守れるのは自分の家だけ。</p>
     <img src="images/slot_07.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※各種公表資料より。被害想定は条件により異なります。</p>
   </section>
   <span class="rvwbadge-top">S08</span>
   <h2 class="lphead">停電に強い家にできるんだって</h2>
@@ -91,6 +97,7 @@ section.sec{position:relative}
     <p>ためた電気で、<span class="em-lg">停電しても電気が使える家</span>になる。</p>
     <p><span class="mark">目安で、約7日間もつそうです</span></p>
     <img src="images/slot_08.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※停電時に使える日数は各家庭の大きさ・使用状況によって異なります。</p>
   </section>
   <section class="sec"><span class="rvwbadge">S09</span>
     <p>しかも普段は、<span class="em">自分の家で電気をつくって使う</span>。</p>
@@ -106,6 +113,7 @@ section.sec{position:relative}
     <p>備えるだけじゃありませんでした。</p>
     <p>私が見せてもらった、ある家庭の<span class="em">ひと月の電気代</span>です。</p>
     <img src="images/slot_11.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※各家庭の大きさ、使用状況によって異なります。</p>
   </section>
   <section class="sec"><span class="rvwbadge">S12</span>
     <p>これは、ある家庭の<span class="em">導入前</span>の電気代。</p>
@@ -117,6 +125,7 @@ section.sec{position:relative}
     <p><span class="em-lg">ひと月、1,860円になりました</span>。</p>
     <p><span class="mark">うそみたいですが、実物の明細です</span></p>
     <img src="images/slot_13.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※各家庭の大きさ、使用状況によって異なります。</p>
   </section>
   <span class="rvwbadge-top">S14</span>
   <h2 class="lphead">高いんでしょ？と思ってた</h2>
@@ -130,16 +139,19 @@ section.sec{position:relative}
     <p>東京都が<span class="em">過去最大級の補助金制度</span>を用意していて、<span class="em-lg">設置の費用負担がぐっと軽くなる</span>と教わりました。</p>
     <p><span class="em">知っている人だけが、使っている</span>んだとか。</p>
     <img src="images/slot_15.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※戸建て以外でも対象となる場合がございます。補助額・条件は年度・製品・申請状況により異なります。</p>
   </section>
   <section class="sec"><span class="rvwbadge">S16</span>
     <p>申請は複雑で<span class="em">一度で通す</span>必要があるそうですが、<span class="em">成功実績は100％</span>とのこと。</p>
     <p>面倒な手続きも全部代行してくれると聞いて、安心できました。</p>
     <img src="images/slot_16.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※補助金保証付き＝お見積りで提示した最初の金額を保証いたします。</p>
   </section>
   <section class="sec"><span class="rvwbadge">S17</span>
     <p>費用は、<span class="em">ローンを使えば実質0円から</span>だそう。</p>
     <p><span class="em">手出しゼロから備えた家庭</span>もあるそうです。</p>
     <img src="images/slot_17.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※当社提携ローン使用の場合。70歳以上は提携ローンを使えない場合があります。</p>
   </section>
   <span class="rvwbadge-top">S18</span>
   <h2 class="lphead">こんなに簡単でいいの？</h2>
@@ -167,6 +179,7 @@ section.sec{position:relative}
       <div class="umeta">40代・男性（八王子市）</div>
       <p>子どもが小さいので、停電でエアコンが止まるのがいちばん怖くて。</p>
       <p>ためた電気で乗り切れると思うと、夜も安心して眠れます。</p>
+      <p class="note">※個人の感想であり、効果を保証するものではありません。各家庭の大きさ・使用状況によって異なります。</p>
     </div>
   </section>
   <section class="sec"><span class="rvwbadge">S22</span>
@@ -175,6 +188,7 @@ section.sec{position:relative}
       <div class="umeta">50代・男性（板橋区）</div>
       <p>手出しはほとんどなく、翌月から電気代がぐっと下がりました。</p>
       <p>備えながら、ちゃんと節約にもなっています。</p>
+      <p class="note">※個人の感想であり、効果を保証するものではありません。各家庭の大きさ・使用状況によって異なります。</p>
     </div>
   </section>
   <section class="sec"><span class="rvwbadge">S23</span>
@@ -183,6 +197,7 @@ section.sec{position:relative}
       <div class="umeta">40代・女性（葛飾区）</div>
       <p>子どもや親のことを考えると、停電の不安が消えたのが一番です。</p>
       <p>電気代も下がって、家族みんな喜んでいます。</p>
+      <p class="note">※個人の感想であり、効果を保証するものではありません。各家庭の大きさ・使用状況によって異なります。</p>
     </div>
   </section>
   <span class="rvwbadge-top">S24</span>
@@ -206,6 +221,7 @@ section.sec{position:relative}
     <p><span class="em">最長20年保証・15年の無料メンテ</span>で、長く安心。</p>
     <p><span class="mark">合わなければ“やめましょう”と正直に言ってくれた</span>のも、決め手でした。</p>
     <img src="images/slot_27.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※メーカーにより保証年数・補償内容は異なります。</p>
   </section>
   <span class="rvwbadge-top">S28</span>
   <h2 class="lphead">でも 今だけなんだって</h2>
@@ -214,6 +230,7 @@ section.sec{position:relative}
     <p><span class="em">気づいた人から、間に合っています</span>。</p>
     <p>次の停電も、補助金の枠も、待ってはくれません。</p>
     <img src="images/slot_28.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">※引用元：クール・ネット東京（断熱・太陽光住宅普及拡大事業全体）。残り枠は最新の数値をご確認ください。戸建て以外でも対象となる場合がございます。</p>
   </section>
   <section class="sec"><span class="rvwbadge">S29</span>
     <p>私がしたのは、<span class="em">30秒の入力</span>で無料相談・無料見積もりを受けることだけ。</p>
@@ -225,6 +242,7 @@ section.sec{position:relative}
     <p>私も、枠がなくなる前に動きました。</p>
     <p><span class="em-lg">あなたの家が まだ間に合うか</span>、無料で確かめてみてください。</p>
     <img src="images/slot_30.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <p class="note">⚠所有の一戸建てではない（賃貸・マンションタイプは対象外）／⚠現在太陽光をリースで契約中 の方はご利用いただけません。</p>
     <a class="cta" href="#">まだ間に合うか 無料相談する</a>
   </section>
 </div></body></html>
